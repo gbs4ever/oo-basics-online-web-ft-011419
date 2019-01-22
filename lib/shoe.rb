@@ -12,5 +12,6 @@ attr_reader :brand , :condition
 
       def condition=(condition)
         @condition = condition
+        puts "new"
         end
 end
